@@ -4,27 +4,22 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: ['Java (Beginner)', 'JavaScript'],
+      skills: ['ASP.NET', 'Java (Beginner)', 'JavaScript', 'TypeScript'],
       color: 'blue',
     },
     {
       title: 'Web Development',
-      skills: ['HTML', 'CSS', 'JavaScript', 'React.js'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js'],
       color: 'teal',
     },
     {
       title: 'Backend & Database',
-      skills: ['Node.js', 'Express.js', 'MongoDB', 'SQL'],
+      skills: ['Express.js', 'Node.js', 'ASP.NET', 'MongoDB', 'SQL'],
       color: 'orange',
     },
     {
       title: 'Tools & Platforms',
-      skills: ['Git', 'Microsoft Azure', 'Vercel', 'Postman'],
-      color: 'purple',
-    },
-    {
-      title: 'Other Skills',
-      skills: ['Data Manipulation', 'Pattern Recognition', 'Problem Solving'],
+      skills: ['Git', 'Vercel', 'Canva', 'Postman'],
       color: 'green',
     },
   ];
@@ -34,7 +29,6 @@ const Skills = () => {
       blue: 'from-blue-500 to-blue-600 bg-blue-50',
       teal: 'from-teal-500 to-teal-600 bg-teal-50',
       orange: 'from-orange-500 to-orange-600 bg-orange-50',
-      purple: 'from-purple-500 to-purple-600 bg-purple-50',
       green: 'from-green-500 to-green-600 bg-green-50',
     };
     return colorMap[color as keyof typeof colorMap] || colorMap.blue;

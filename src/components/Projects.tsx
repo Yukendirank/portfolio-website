@@ -4,22 +4,22 @@ import { ExternalLink, Github, Coins, MapPin } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Travel Itinerary Planner',
-      description: 'An AI-powered web application that streamlines travel planning by generating personalized daily itineraries tailored to user preferences. Users input their destination, trip duration, budget, and interests, and the app leverages Google\'s Gemini API to create customized activity recommendations with images, descriptions, and cost estimates. The platform includes real-time weather forecasts, multi-currency budget tracking, PDF export functionality, and shareable itinerary links.',
-      technologies: ['React.js', 'JavaScript', 'Google Gemini API', 'Weather API', 'PDF Export', 'CSS3', 'Responsive Design'],
-      icon: <MapPin className="text-blue-600" size={32} />,
-      color: 'blue',
-      liveUrl: 'https://travel-ai-mauve.vercel.app',
-      githubUrl: 'https://github.com/Yukendirank/TravelAI.git'
-    },
-    {
       title: 'CropCast',
-      description: 'CropCast is an AI-powered crop yield prediction system designed to help farmers and agronomists make data-driven decisions about crop management and yield forecasting. It uses Google\'s Gemini AI to analyze agricultural conditions and provide intelligent predictions with personalized recommendations.',
-      technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel Analytics', 'Google Generative AI SDK'],
+      description: 'A comprehensive web-based application that uses Google Gemini AI to predict crop yields based on weather conditions, soil properties, and farming practices. This intelligent platform helps farmers make data-driven decisions to optimize their agricultural output and improve productivity.',
+      technologies: ['Google Gemini AI', 'React.js', 'TypeScript', 'Weather API', 'Data Analytics', 'Tailwind CSS'],
       icon: <Coins className="text-green-600" size={32} />,
       color: 'green',
       liveUrl: 'https://cropcast-ten.vercel.app',
       githubUrl: 'https://github.com/Yukendirank/Cropcast.git'
+    },
+    {
+      title: 'TravelAI',
+      description: 'This project represents a modern, AI-powered travel planning application that combines cutting-edge technology with user-friendly design to create personalized travel experiences. The platform streamlines travel planning by generating customized itineraries tailored to user preferences, budget, and interests.',
+      technologies: ['React.js', 'JavaScript', 'Google Gemini API', 'AI Integration', 'Responsive Design'],
+      icon: <MapPin className="text-blue-600" size={32} />,
+      color: 'blue',
+      liveUrl: 'https://travel-ai-mauve.vercel.app',
+      githubUrl: 'https://github.com/Yukendirank/TravelAI.git'
     }
   ];
 

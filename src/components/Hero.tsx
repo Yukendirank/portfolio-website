@@ -14,13 +14,14 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Software Engineering Student & Full-Stack Developer
+              React & .NET Full Stack Developer
             </p>
           </div>
 
           <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
-            Passionate about building innovative, end-to-end solutions that address real-world problems 
-            through technology. Experienced in full-stack development with expertise in modern web technologies, frameworks, and databases.
+            Motivated and detail-oriented React & .NET Full Stack Developer with hands-on experience in building responsive
+            and scalable web applications using React.js, ASP.NET Core, Web API, and SQL. Passionate about writing clean,
+            maintainable code and eager to contribute to real-world enterprise applications.
           </p>
 
           <div className="flex justify-center space-x-6">

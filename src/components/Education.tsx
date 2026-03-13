@@ -7,25 +7,25 @@ const Education = () => {
       degree: 'Bachelor of Technology (B.Tech)',
       field: 'Computer Science and Business Systems',
       institution: 'Mailam Engineering College',
-      location: 'Villupuram, Tamil Nadu',
+      location: 'Tamil Nadu',
       period: 'Current',
-      gpa: 'CGPA: 8.35 / 10'
+      gpa: 'Currently Pursuing'
     },
     {
       degree: 'Higher Secondary Certificate (HSC)',
-      field: 'Science',
+      field: '',
       institution: 'Government Higher Secondary School Panayapuram',
       location: 'Tamil Nadu',
       period: 'Completed',
-      gpa: 'Percentage: 67%'
+      gpa: 'Completed'
     },
     {
       degree: 'Secondary School Leaving Certificate (SSLC)',
-      field: '10th Grade',
+      field: '',
       institution: 'Government High School',
       location: 'Thirukkanur, Puducherry',
       period: 'Completed',
-      gpa: 'Percentage: 46%'
+      gpa: 'Completed'
     }
   ];
 

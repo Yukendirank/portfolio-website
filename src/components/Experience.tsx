@@ -11,7 +11,7 @@ const Experience = () => {
       description: [
         'Explored techniques to evaluate model accuracy and performance',
         'Gained exposure to core computer vision concepts and image preprocessing',
-        'Worked with data visualization techniques and model evaluation'
+        'Tech Stack: Python, NumPy, Matplotlib'
       ]
     }
   ];
@@ -20,7 +20,8 @@ const Experience = () => {
     'Strong problem-solving skills',
     'Quick learner and team player',
     'Good communication and analytical skills',
-    'Participated in workshop competition at Karpagam Vinayagar College of Engineering'
+    'Participated in workshop competition at Karpagam Vinayagar College of Engineering and Technology',
+    'Showcased an innovative project at the Project Expo conducted by the Information Technology Department, Mailam Engineering College'
   ];
 
   return (
