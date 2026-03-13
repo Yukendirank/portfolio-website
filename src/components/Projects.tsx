@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: 'CropCast',
-      description: 'A decentralized crowdfunding platform built on blockchain specifically for farmers. It ensures transparent, secure, and efficient fundraising for agricultural projects, empowering farmers to connect directly with supporters while maintaining trust and accountability.',
+      description: 'CropCast is an AI-powered crop yield prediction system designed to help farmers and agronomists make data-driven decisions about crop management and yield forecasting. It uses Google\'s Gemini AI to analyze agricultural conditions and provide intelligent predictions with personalized recommendations.',
       technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel Analytics', 'Google Generative AI SDK'],
       icon: <Coins className="text-green-600" size={32} />,
       color: 'green',
